@@ -1,5 +1,6 @@
 import React from "react";
 import CustomButton from "../Utils/CustomButton/CustomButton";
+import image from "../../assets/images/hero-section-image.png"
 
 function HeroSection() {
   return (
