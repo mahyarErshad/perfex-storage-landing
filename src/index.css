@@ -40,3 +40,6 @@ body,
 .flex-col {
   @apply flex;
 }
+.container {
+  @apply w-full max-w-[82.5rem] mx-auto flex-col;
+}
