@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 function CustomButton(className, text, href) {
   return (
-    <a href={href} target="blank" className={`${className} py-4 min-w-[12.5rem]`}>
+    <a href={href} target="blank" className={`${className} ${styles.button} py-4 min-w-[12.5rem]`}>
       {text}
     </a>
   );
