@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <section>HeroSection</section>
+    <section className='container'>HeroSection</section>
   )
 }
 
