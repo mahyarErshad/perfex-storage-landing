@@ -8,7 +8,7 @@
   box-sizing: border-box;
   color: #4e4e4e;
 }
-/* @font-face {
+@font-face {
   font-family: yekanBakh;
   src: url("./assets/fonts/YekanBakhFaNum-Light.woff") format("woff");
   font-weight: 300;
@@ -34,7 +34,7 @@
   src: url("./assets/fonts/YekanBakhFaNum-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
-} */
+}
 html,
 body,
 #root {
