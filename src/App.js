@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "./Components/HeroSection/HeroSection";
 
 function App() {
   return (
-    <h1 className="text-white text-8xl">
-      سلام
-    </h1>
+    <>
+      <HeroSection />
+    </>
   );
 }
 
