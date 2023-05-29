@@ -43,6 +43,7 @@
 
 :root {
   --navy: #1b1b1b;
+  --primary-color: #bf6fff;
 }
 * {
   padding: 0;
