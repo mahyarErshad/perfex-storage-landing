@@ -1,9 +1,9 @@
 import React from "react";
 import CustomButton from "../Utils/CustomButton/CustomButton";
 import image from "../../assets/images/hero-section-image.png";
-import topRightBoxes from '../../assets/images/hero-boxes-top-right.png'
-import bottomLeftBoxes from '../../assets/images/hero-boxes-bottom-left.png'
-import {ReactComponent as Arrow} from '../../assets/images/twisted-arrow.svg'
+import topRightBoxes from "../../assets/images/hero-boxes-top-right.png";
+import bottomLeftBoxes from "../../assets/images/hero-boxes-bottom-left.png";
+import { ReactComponent as Arrow } from "../../assets/images/twisted-arrow.svg";
 
 function HeroSection() {
   return (
@@ -13,6 +13,7 @@ function HeroSection() {
       <CustomButton className="mt-11" />
       <div className="relative">
         <img src={image} alt="محیط کاربری ماژول انبارداری اسکریپت پرفکس" />
+        <img src={topRightBoxes} className="absolute top-0 right-0 translate-x-[50%] -translate-y-[50%]" alt="Boxes" />
       </div>
     </section>
   );
