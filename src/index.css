@@ -66,7 +66,7 @@ body,
   scroll-behavior: smooth;
   direction: rtl;
   background-color: var(--navy);
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 .flex-center {
   @apply flex justify-center items-center;
@@ -79,10 +79,21 @@ body,
 }
 
 /* gradient text */
+@keyframes gradient-animation {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: -100% 50%;
+  }
+}
+
 .gradient-text {
   background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0.29) 20.68%, #ffffff 42.65%, rgba(255, 255, 255, 0.29) 71.19%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  animation: gradient-animation 5s linear infinite;
+  background-size: 200% auto;
 }
