@@ -94,6 +94,8 @@ body,
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  animation: gradient-animation 5s linear infinite;
   background-size: 200% auto;
+}
+.gradient-text__animation {
+  animation: gradient-animation 5s linear infinite;
 }
