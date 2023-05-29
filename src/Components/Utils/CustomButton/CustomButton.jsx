@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function CustomButton() {
+function CustomButton(className, text, href) {
   return (
-    <div>CustomButton</div>
-  )
+    <a href={href} target="blank" className={`${className} py-4 min-w-[12.5rem]`}>
+      {text}
+    </a>
+  );
 }
 
-export default CustomButton
+export default CustomButton;
