@@ -17,6 +17,7 @@ function HeroSection() {
         <span className="w-[11rem] h-[11rem] bg-primary absolute top-0 right-0 max-lg:hidden translate-x-[150%] blur-[8.5625rem]"></span>
         <img src={image} alt="محیط کاربری ماژول انبارداری اسکریپت پرفکس" />
         <img src={topRightBoxes} className="absolute top-0 right-0 translate-x-[50%] -translate-y-[50%] max-lg:hidden" alt="Boxes" />
+        <span className="w-[11rem] h-[11rem] bg-primary absolute top-[50%] left-0 max-lg:hidden -translate-x-[150%] blur-[8.5625rem]"></span>
         <img src={bottomLeftBoxes} className="absolute bottom-0 left-0 -translate-x-[50%] translate-y-[45%] max-lg:hidden" alt="Boxes" />
         <Arrow className="absolute top-0 left-0 -translate-x-[80%] -translate-y-[80%] max-lg:hidden" />
       </div>

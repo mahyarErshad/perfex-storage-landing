@@ -66,6 +66,7 @@ body,
   scroll-behavior: smooth;
   direction: rtl;
   background-color: var(--navy);
+  overflow-x: hidden
 }
 .flex-center {
   @apply flex justify-center items-center;
