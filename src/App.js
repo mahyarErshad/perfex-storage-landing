@@ -2,7 +2,7 @@ import React from 'react'
 
 function App() {
   return (
-    <h1 className="text-red-500 text-8xl">
+    <h1 className="text-white text-8xl">
       سلام
     </h1>
   );
