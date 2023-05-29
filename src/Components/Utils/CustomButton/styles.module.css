@@ -3,3 +3,6 @@
   box-shadow: 0px 0px 0.625rem rgba(191, 110, 255, 0.8);
   border-radius: 4px;
 }
+.button:hover {
+  box-shadow: 0px 0px 3rem rgba(191, 110, 255, 0.8);
+}
