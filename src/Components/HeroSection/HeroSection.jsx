@@ -15,6 +15,7 @@ function HeroSection() {
         <img src={image} alt="محیط کاربری ماژول انبارداری اسکریپت پرفکس" />
         <img src={topRightBoxes} className="absolute top-0 right-0 translate-x-[50%] -translate-y-[50%]" alt="Boxes" />
         <img src={bottomLeftBoxes} className="absolute bottom-0 left-0 -translate-x-[50%] translate-y-[45%]" alt="Boxes" />
+        <Arrow className="absolute top-0 left-0 -translate-x-[80%] -translate-y-[80%]" />
       </div>
     </section>
   );
