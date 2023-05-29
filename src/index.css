@@ -31,7 +31,7 @@ body,
   direction: rtl;
 }
 :root {
-  --primary-color: #f77f00;
+  --navy: #1b1b1b;
 }
 .flex-center {
   @apply flex justify-center items-center;
