@@ -2,7 +2,9 @@ import React from 'react'
 
 function FeaturesSection() {
   return (
-    <div>FeaturesSection</div>
+    <section className='container flex-center'>
+
+    </section>
   )
 }
 
