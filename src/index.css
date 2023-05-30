@@ -80,6 +80,9 @@ body,
 .rounded-20 {
   border-radius: 1.25rem;
 }
+.mirror {
+  transform: scaleX(-1);
+}
 /* gradient text */
 @keyframes gradient-animation {
   0% {
