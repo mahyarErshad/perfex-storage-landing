@@ -91,15 +91,20 @@ body,
   border-radius: 1.25rem;
 }
 .gradient-text {
-  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0.29) 20.68%, #ffffff 42.65%, rgba(255, 255, 255, 0.29) 71.19%, #ffffff 100%);
+  background: linear-gradient(270deg, #fff 0%, #fff 40%, rgba(255, 255, 255, 0.29) 50%, #fff 60%, #fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  background-size: 200% auto;
 }
+
 .gradient-text__animation {
   animation: gradient-animation 5s linear infinite;
+  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0.29) 20.68%, #ffffff 42.65%, rgba(255, 255, 255, 0.29) 71.19%, #ffffff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
 }
 .glass-container {
   background: linear-gradient(90deg, rgba(191, 111, 255, 0.05) 0%, rgba(112, 195, 255, 0.05) 100%);
