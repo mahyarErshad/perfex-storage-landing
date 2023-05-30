@@ -110,3 +110,6 @@ body,
   backdrop-filter: blur(3.125rem);
   border: 1px solid #ffffff29;
 }
+.bg-gradient {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.145) 44.79%, rgba(255, 255, 255, 0.5) 100%);
+}
