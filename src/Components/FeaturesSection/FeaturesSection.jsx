@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 
 function FeaturesSection() {
   return (
-    <section className='container flex-center'>
-
+    <section className="container flex-center">
+      <SectionHeading title="ویژگی های ماژول انبارداری" />
     </section>
-  )
+  );
 }
 
-export default FeaturesSection
+export default FeaturesSection;
