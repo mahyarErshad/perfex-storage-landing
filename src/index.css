@@ -87,7 +87,9 @@ body,
     background-position: -100% 50%;
   }
 }
-
+.rounded-20{
+  border-radius: 1.25rem;
+}
 .gradient-text {
   background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0.29) 20.68%, #ffffff 42.65%, rgba(255, 255, 255, 0.29) 71.19%, #ffffff 100%);
   -webkit-background-clip: text;
