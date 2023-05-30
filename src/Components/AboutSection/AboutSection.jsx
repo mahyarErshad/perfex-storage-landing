@@ -4,7 +4,7 @@ import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 function AboutSection() {
   return (
     <section className="container mt-[6.5rem] flex-center">
-      <SectionHeading />
+      <SectionHeading title="درباره ماژول انبارداری" />
     </section>
   );
 }
