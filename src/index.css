@@ -142,18 +142,3 @@ body,
   width: fit-content !important;
   max-height: 4.5rem !important;
 }
-
-/* Autoplay styles */
-.swiper-container {
-  /* Add necessary styles to enable autoplay */
-  position: relative;
-  overflow: hidden;
-}
-
-.swiper-wrapper {
-  /* Ensure slides are positioned properly */
-  transition-property: transform;
-  transition-duration: 0.6s;
-  transition-timing-function: ease-out;
-  will-change: transform;
-}
