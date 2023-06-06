@@ -4,7 +4,7 @@ import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 function TabsSection() {
   return (
     <section className="container flex-center">
-      <SectionHeading />
+      <SectionHeading title="تصاویر ماژول انبارداری" />
     </section>
   );
 }
