@@ -4,7 +4,7 @@ import "swiper/css";
 
 const Carousel = () => {
   return (
-    <section className="container flex-center">
+    <section className="w-full flex-center">
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
@@ -12,6 +12,7 @@ const Carousel = () => {
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
+          pauseOnMouseEnter: true,
         }}
       >
         <SwiperSlide>
@@ -20,7 +21,6 @@ const Carousel = () => {
         <SwiperSlide>
           <h1 className="text-white">h2</h1>
         </SwiperSlide>
-        <h1 className="text-white">h3</h1>
       </Swiper>
     </section>
   );
