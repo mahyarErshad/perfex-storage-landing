@@ -133,14 +133,39 @@ body,
     transform: translateX(0);
   }
   to {
-    transform: translateX(100%);
+    transform: translateX(calc(100% + 1.5rem));
   }
 }
 
 .carousel-wrapper {
   overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.carousel-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 8rem;
+  background: linear-gradient(to left, transparent, var(--navy));
+  z-index: 10;
+}
+.carousel-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 4rem;
+  background: linear-gradient(to right, transparent, var(--navy));
+  z-index: 10;
+}
+.carousel-wrapper:hover .carousels {
+  animation-play-state: paused;
 }
 .carousels {
-  white-space: nowrap;
-  animation: slide 10s infinite linear;
+  animation: slide 20s infinite linear;
+  z-index: 1;
 }
