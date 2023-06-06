@@ -127,18 +127,3 @@ body,
 .tab div {
   backdrop-filter: blur(1.25rem);
 }
-/* Swiper */
-
-.swiper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide {
-  display: flex !important;
-  width: fit-content !important;
-  max-height: 4.5rem !important;
-}
