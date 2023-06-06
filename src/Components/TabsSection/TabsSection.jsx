@@ -5,11 +5,13 @@ import { Tab, TabList, Tabs } from "react-tabs";
 function TabsSection() {
   const array = Array.from({ length: 6 }, () => 1);
   return (
-    <Tabs className="container flex-center">
+    <Tabs className="container flex-center mb-32">
       <SectionHeading title="تصاویر ماژول انبارداری" />
       <TabList className="mt-10 flex-center gap-6">
         {array.map((_, index) => (
-          <Tab key={index}>عنوان تصویر</Tab>
+          <Tab className="glass-container flex-center cursor-pointer rounded-20 py-6 max-h-[4.5rem] text-white w-[12.5rem]" key={index}>
+            عنوان تصویر
+          </Tab>
         ))}
       </TabList>
     </Tabs>
