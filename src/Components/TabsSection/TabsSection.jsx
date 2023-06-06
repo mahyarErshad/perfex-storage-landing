@@ -1,6 +1,7 @@
 import React from "react";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import laptopImage from "../../assets/images/Tabs/Laptop.png"
 
 function TabsSection() {
   const array = Array.from({ length: 6 }, () => 1);
@@ -16,7 +17,7 @@ function TabsSection() {
         ))}
       </TabList>
       <TabPanel>
-        
+
       </TabPanel>
     </Tabs>
   );
