@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 
 function TabsSection() {
   return (
-    <div>TabsSection</div>
-  )
+    <section className="container flex-center">
+      <SectionHeading />
+    </section>
+  );
 }
 
-export default TabsSection
+export default TabsSection;
