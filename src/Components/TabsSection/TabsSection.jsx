@@ -8,7 +8,9 @@ function TabsSection() {
     <Tabs className="container flex-center">
       <SectionHeading title="تصاویر ماژول انبارداری" />
       <TabList className="mt-10 flex-center gap-6">
-        <Tab>عنوان تصویر</Tab>
+        {array.map((_, index) => (
+          <Tab key={index}>عنوان تصویر</Tab>
+        ))}
       </TabList>
     </Tabs>
   );
