@@ -9,7 +9,7 @@ function TabsSection() {
       <SectionHeading title="تصاویر ماژول انبارداری" />
       <TabList className="mt-10 flex-center gap-6">
         {array.map((_, index) => (
-          <Tab className="glass-container flex-center cursor-pointer rounded-20 py-6 max-h-[4.5rem] text-white w-[12.5rem] font-bold" key={index}>
+          <Tab className="glass-container flex-center cursor-pointer rounded-20 py-6 max-h-[4.5rem] text-white w-[12.5rem] font-bold duration-300" key={index}>
             عنوان تصویر
           </Tab>
         ))}
