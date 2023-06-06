@@ -9,8 +9,9 @@ function TabsSection() {
       <SectionHeading title="تصاویر ماژول انبارداری" />
       <TabList className="mt-10 flex-center gap-6">
         {array.map((_, index) => (
-          <Tab className="glass-container flex-center cursor-pointer rounded-20 py-6 max-h-[4.5rem] text-white w-[12.5rem] font-bold duration-300 relative" key={index}>
-            عنوان تصویر
+          <Tab className=" flex-center flex-col cursor-pointer duration-300" key={index}>
+            <div className="glass-container rounded-20 py-6 max-h-[4.5rem] text-white w-[12.5rem] font-bold text-center">عنوان تصویر</div>
+            <span className="w-[85%] h-1 bg-gradient-to-r from-[#8BC6EC] to-[#9599E2] rounded-20 duration-300 opacity-0"></span>
           </Tab>
         ))}
       </TabList>

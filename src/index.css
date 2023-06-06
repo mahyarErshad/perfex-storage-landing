@@ -120,9 +120,7 @@ body,
 /* Tabs */
 .react-tabs__tab--selected {
   outline: none;
-  background: linear-gradient(90deg, #bf6fff 0%, #70c3ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+}
+.react-tabs__tab--selected span {
+  opacity: 1;
 }
