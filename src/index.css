@@ -127,3 +127,20 @@ body,
 .tab div {
   backdrop-filter: blur(1.25rem);
 }
+/* Carousel */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+}
+.carousels {
+  white-space: nowrap;
+  animation: slide 10s infinite linear;
+}
