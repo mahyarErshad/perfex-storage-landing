@@ -19,8 +19,9 @@ const Carousel = () => {
       >
         {arr.map((item, index) => {
           return (
-            <SwiperSlide className="flex-center" key={index}>
-              <h1 className="text-white">{item}</h1>
+            <SwiperSlide className="flex-center gap-4 glass-container rounded-20 py-4 px-8" key={index}>
+              <DoubleCheck />
+              <p className="text-white">{item}</p>
             </SwiperSlide>
           );
         })}
