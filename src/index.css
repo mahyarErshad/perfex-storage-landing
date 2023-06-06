@@ -116,3 +116,8 @@ body,
 .bg-gradient {
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.145) 44.79%, rgba(255, 255, 255, 0.5) 100%);
 }
+
+/* Tabs */
+.react-tabs__tab--selected {
+  outline: none;
+}
