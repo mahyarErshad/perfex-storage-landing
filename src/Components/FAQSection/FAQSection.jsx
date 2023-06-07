@@ -15,7 +15,6 @@ function FAQSection() {
   return (
     <section className="container flex-center mb-[12.1875rem] gap-12 relative">
       <span className="w-[23.25rem] h-[23.25rem] bg-primary absolute top-0 left-0 max-lg:hidden -translate-x-[80%] blur-[28.125rem]"></span>
-      <TwistedArrowIcon className="absolute right-16 -translate-y-28 scale-x-[-1] rotate-45 max-lg:hidden" />
       <TwistedArrowIcon className="absolute left-12 -bottom-16 scale-x-[-1] rotate-180 max-lg:hidden" />
       <SectionHeading title="سوالات متداول" />
       <Accordion className="max-w-[54.5rem]">
