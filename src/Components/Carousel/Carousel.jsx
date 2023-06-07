@@ -1,10 +1,12 @@
 import React from "react";
 import CarouselCards from "./CarouselCards";
 import CustomButton from "../Utils/CustomButton/CustomButton";
+import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 
 const Carousel = () => {
   return (
     <section className="flex-center flex-col w-full mb-[6.25rem]">
+      <SectionHeading title="مزایای ماژول انبارداری" />
       <div className="w-full flex gap-6 px-4 carousel-wrapper">
         <CarouselCards />
         <CarouselCards />
