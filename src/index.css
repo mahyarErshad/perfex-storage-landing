@@ -170,6 +170,10 @@ body,
 }
 
 /* Accordion */
+.accordion-header[aria-expanded="true"] {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 .accordion-header[aria-expanded="true"] svg {
   transform: rotate(180deg);
 }
