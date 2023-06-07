@@ -3,9 +3,8 @@ import { ReactComponent as DoubleCheck } from "../../assets/images/double-check.
 
 const Carousel = () => {
   const arr = ["دقت بالا در کنترل موجودی در هنگام نقل و انتقال کالاها در بین انبارها", "دقت بالا در کنترل موجودی در هنگام مرجوع شدن کالاها", "مدیریت راحت انبارها", "سرعت در انجام کارهای مرتبط با انبارداری"];
-
-  return (
-    <section className="w-full flex px-4 mb-[6.25rem] carousel-wrapper">
+  const Cards = () => {
+    return (
       <div className="flex-center gap-6 carousels">
         {arr.map((item, index) => {
           return (
@@ -16,16 +15,12 @@ const Carousel = () => {
           );
         })}
       </div>
-      <div className="flex-center gap-6 mr-6 carousels">
-        {arr.map((item, index) => {
-          return (
-            <div className="flex-center gap-4 glass-container rounded-20 py-4 px-8 carousel" key={index}>
-              <DoubleCheck />
-              <p className="text-white">{item}</p>
-            </div>
-          );
-        })}
-      </div>
+    );
+  };
+  return (
+    <section className="w-full flex px-4 mb-[6.25rem] carousel-wrapper">
+      <Cards />
+      <Cards />
     </section>
   );
 };
