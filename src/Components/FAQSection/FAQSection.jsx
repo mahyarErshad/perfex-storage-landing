@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from "react-headless-accordion";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import { ReactComponent as ArrowIcon } from "../../assets/images/icon-arrow.svg";
+import FaqData from "../../lib/FaqData";
 
 function FAQSection() {
   const [state, setState] = useState(null);
@@ -14,7 +15,7 @@ function FAQSection() {
     <section className="container flex-center mb-[12.1875rem] gap-12">
       <SectionHeading title="سوالات متداول" />
       <Accordion className="max-w-[54.5rem]">
-        {data.map((item, index) => (
+        {FaqData.map((item, index) => (
           <AccordionItem key={index}>
             <AccordionHeader onClick={() => toggleAccordion(index)} className={`glass-container flex items-center justify-between px-6 py-4 rounded-lg w-full accordion-header ${state === index ? "open" : ""}`}>
               <h3 className="text-white text-sm">{item.header}</h3>
