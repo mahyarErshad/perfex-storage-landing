@@ -35,8 +35,8 @@ function FAQSection() {
           return (
             <AccordionItem key={i}>
               <AccordionHeader className="glass-container flex items-center justify-between px-6 py-4 rounded-lg w-full accordion-header">
-                <h3 className="text-white text-base">{item.header}</h3>
-                <ArrowIcon />
+                <h3 className="text-white text-sm">{item.header}</h3>
+                <ArrowIcon className="duration-300" />
               </AccordionHeader>
 
               <AccordionBody className="mb-3">

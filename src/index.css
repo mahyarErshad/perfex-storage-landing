@@ -53,7 +53,6 @@
 }
 h1,
 h2,
-h3,
 h4,
 h5 {
   font-family: kalameh;
@@ -168,4 +167,9 @@ body,
 .carousels {
   animation: slide 20s infinite linear;
   z-index: 1;
+}
+
+/* Accordion */
+.accordion-header[aria-expanded="true"] svg {
+  transform: rotate(180deg);
 }
