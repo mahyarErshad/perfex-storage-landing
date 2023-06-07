@@ -1,9 +1,11 @@
 import React from "react";
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from "react-headless-accordion";
+import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 
 function FAQSection() {
   return (
-    <section className="container flex-center mb-[12.1875rem]">
+    <section className="container flex-center mb-[12.1875rem] gap-12">
+      <SectionHeading title="سوالات متداول" />
       <Accordion>
         <AccordionItem>
           <AccordionHeader>
