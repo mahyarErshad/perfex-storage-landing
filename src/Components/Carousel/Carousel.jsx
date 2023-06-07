@@ -7,7 +7,7 @@ const Carousel = () => {
   return (
     <section className="flex-center flex-col w-full mb-[6.25rem]">
       <SectionHeading title="مزایای ماژول انبارداری" />
-      <div className="w-full flex gap-6 px-4 carousel-wrapper">
+      <div className="w-full flex gap-6 px-4 carousel-wrapper mt-14">
         <CarouselCards />
         <CarouselCards />
       </div>
