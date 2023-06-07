@@ -12,7 +12,8 @@ function FAQSection() {
   };
 
   return (
-    <section className="container flex-center mb-[12.1875rem] gap-12">
+    <section className="container flex-center mb-[12.1875rem] gap-12 relative">
+      <span className="w-[23.25rem] h-[23.25rem] bg-primary absolute top-0 left-0 max-lg:hidden -translate-x-[80%] blur-[28.125rem]"></span>
       <SectionHeading title="سوالات متداول" />
       <Accordion className="max-w-[54.5rem]">
         {FaqData.map((item, index) => (
