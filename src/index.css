@@ -177,3 +177,12 @@ body,
 .accordion-header[aria-expanded="true"] svg {
   transform: rotate(180deg);
 }
+.accordion-body {
+  background: linear-gradient(90deg, rgba(191, 111, 255, 0.05) 0%, rgba(112, 195, 255, 0.05) 100%);
+  backdrop-filter: blur(3.125rem);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.accordion-body__border {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
