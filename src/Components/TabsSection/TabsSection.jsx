@@ -6,7 +6,8 @@ import laptopImage from "../../assets/images/Tabs/Laptop.png";
 function TabsSection() {
   const array = Array.from({ length: 6 }, () => 1);
   return (
-    <Tabs className="w-full px-4 flex-col mx-auto flex-center mb-32">
+    <Tabs className="w-full px-4 flex-col mx-auto flex-center mb-32 relative">
+      <span className="w-[23.25rem] h-[23.25rem] bg-primary absolute top-[34%] right-[4%] max-lg:hidden blur-[28.125rem]"></span>
       <SectionHeading title="تصاویر ماژول انبارداری" />
       <TabList className="mt-10 flex-center flex-wrap gap-6 mb-20">
         {array.map((_, index) => (
