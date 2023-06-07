@@ -30,12 +30,13 @@ function FAQSection() {
   return (
     <section className="container flex-center mb-[12.1875rem] gap-12">
       <SectionHeading title="سوالات متداول" />
-      <Accordion>
+      <Accordion className="max-w-[54.5rem]">
         {data.map((item, i) => {
           return (
             <AccordionItem key={i}>
-              <AccordionHeader className="glass-container justify-between px-6 py-4 rounded-lg w-full">
-                <h3 className="text-white">{item.header}</h3>
+              <AccordionHeader className="glass-container flex items-center justify-between px-6 py-4 rounded-lg w-full accordion-header">
+                <h3 className="text-white text-base">{item.header}</h3>
+                <ArrowIcon />
               </AccordionHeader>
 
               <AccordionBody className="mb-3">
