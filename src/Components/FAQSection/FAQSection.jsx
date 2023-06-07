@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from "react-headless-accordion";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import { ReactComponent as ArrowIcon } from "../../assets/images/icon-arrow.svg";
+import { ReactComponent as TwistedArrowIcon } from "../../assets/images/twisted-arrow.svg";
 import FaqData from "../../lib/FaqData";
 
 function FAQSection() {
