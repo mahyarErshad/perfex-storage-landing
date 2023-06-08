@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from "react-headless-accordion";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import { ReactComponent as ArrowIcon } from "../../assets/images/icon-arrow.svg";
@@ -35,4 +35,4 @@ function FAQSection() {
   );
 }
 
-export default FAQSection;
+export default memo(FAQSection);
