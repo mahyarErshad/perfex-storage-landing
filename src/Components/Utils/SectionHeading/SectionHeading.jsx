@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import styles from "./styles.module.css";
 
 function SectionHeading({ title }) {
@@ -10,4 +10,4 @@ function SectionHeading({ title }) {
   );
 }
 
-export default SectionHeading;
+export default memo(SectionHeading);
