@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import FeatureSectionCard from "../Utils/FeatureSectionCard/FeatureSectionCard";
 
@@ -16,4 +16,4 @@ function FeaturesSection() {
   );
 }
 
-export default FeaturesSection;
+export default memo(FeaturesSection);
