@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 function FeatureSectionCard({ gradient }) {
   return (
@@ -13,4 +13,4 @@ function FeatureSectionCard({ gradient }) {
   );
 }
 
-export default FeatureSectionCard;
+export default memo(FeatureSectionCard);
