@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import styles from "./styles.module.css";
 import { ReactComponent as BackgroundShape } from "../../../assets/images/button-background-shape.svg";
 
@@ -13,4 +13,4 @@ function CustomButton({ className, text, href }) {
   );
 }
 
-export default CustomButton;
+export default memo(CustomButton);
