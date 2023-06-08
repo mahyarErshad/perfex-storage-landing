@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import CarouselCards from "./CarouselCards";
 import CustomButton from "../Utils/CustomButton/CustomButton";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
@@ -16,4 +16,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default memo(Carousel);
