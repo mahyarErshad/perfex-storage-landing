@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import CustomButton from "../Utils/CustomButton/CustomButton";
 import { ReactComponent as Arrow } from "../../assets/images/twisted-arrow.svg";
@@ -16,4 +16,4 @@ function AboutSection() {
   );
 }
 
-export default AboutSection;
+export default memo(AboutSection);
