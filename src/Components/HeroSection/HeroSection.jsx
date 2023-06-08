@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import CustomButton from "../Utils/CustomButton/CustomButton";
 import image from "../../assets/images/hero-section-image.png";
 import topRightBoxes from "../../assets/images/hero-boxes-top-right.png";
@@ -25,4 +25,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default memo(HeroSection);
