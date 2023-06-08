@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { ReactComponent as DoubleCheck } from "../../assets/images/double-check.svg";
 
 function CarouselCards() {
@@ -18,4 +18,4 @@ function CarouselCards() {
   );
 }
 
-export default CarouselCards;
+export default memo(CarouselCards);
