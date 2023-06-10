@@ -1,7 +1,12 @@
 import React from "react";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import laptopImage from "../../assets/images/Tabs/Laptop.png";
+import image1 from "../../assets/images/Tabs/1.png";
+import image2 from "../../assets/images/Tabs/2.png";
+import image3 from "../../assets/images/Tabs/3.png";
+import image4 from "../../assets/images/Tabs/4.png";
+import image5 from "../../assets/images/Tabs/5.png";
+import image6 from "../../assets/images/Tabs/6.png";
 
 function TabsSection() {
   const array = Array.from({ length: 6 }, () => 1);
@@ -19,7 +24,7 @@ function TabsSection() {
       </TabList>
       {array.map((_, index) => (
         <TabPanel key={index}>
-          <img src={laptopImage} alt="laptop" />
+          <img src={image1} alt="laptop" />
         </TabPanel>
       ))}
     </Tabs>
