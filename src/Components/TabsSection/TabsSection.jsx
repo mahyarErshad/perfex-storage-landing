@@ -6,7 +6,7 @@ import image2 from "../../assets/images/Tabs/2.webp";
 import image3 from "../../assets/images/Tabs/3.webp";
 import image4 from "../../assets/images/Tabs/4.webp";
 import image5 from "../../assets/images/Tabs/5.webp";
-import image6 from "../../assets/images/Tabs/6.png";
+import image6 from "../../assets/images/Tabs/6.webp";
 
 function TabsSection() {
   const array = [
