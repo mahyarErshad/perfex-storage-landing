@@ -1,7 +1,7 @@
 import React from "react";
 import SectionHeading from "../Utils/SectionHeading/SectionHeading";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import image1 from "../../assets/images/Tabs/1.png";
+import image1 from "../../assets/images/Tabs/1.webp";
 import image2 from "../../assets/images/Tabs/2.png";
 import image3 from "../../assets/images/Tabs/3.png";
 import image4 from "../../assets/images/Tabs/4.png";
