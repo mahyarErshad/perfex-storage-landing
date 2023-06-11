@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import CustomButton from "../Utils/CustomButton/CustomButton";
-import image from "../../assets/images/hero-section-image.png";
+import image from "../../assets/images/hero-section-image.webp";
 import topRightBoxes from "../../assets/images/hero-boxes-top-right.png";
 import bottomLeftBoxes from "../../assets/images/hero-boxes-bottom-left.png";
 import { ReactComponent as Arrow } from "../../assets/images/twisted-arrow.svg";
